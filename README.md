@@ -54,7 +54,7 @@ The MyToken contract emits the following events:
 
 ## Author
 
-Vaishnavi Arora
+Mukund Singh Parmar
 
 ## License
 
