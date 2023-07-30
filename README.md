@@ -1,4 +1,4 @@
-# MyToken
+# ETH AVAX Module 3
 
 MyToken is a basic ERC20-compatible token contract written in Solidity. It allows for token creation, transfer, and burning.
 
@@ -20,6 +20,16 @@ To deploy and interact with the MyToken contract, you need the following:
 2. Provide the desired token name and symbol during deployment.
 3. Take note of the deployed contract address.
 
+#### Commands used in this project in terminals
+Use to install Hardhat ''' npm install --save-dev "hardhat@^2.16.1" "@nomicfoundation/hardhat-toolbox@^2.0.0" '''
+Check version of hardhat and start the project by creating javascript file ''' npx hardhat '''
+Now check, Hardhat is successfully installed or not by placing same code ''' npx hardhat '''
+If this is showing error: HH801 the try this command, this will successfully install hardhat ''' npm install --save-dev "@nomicfoundation/hardhat-network-helpers@^1.0.0" "@nomicfoundation/hardhat-chai-matchers@^1.0.0" "@nomiclabs/hardhat-ethers@^2.0.0" "@nomiclabs/hardhat-etherscan@^3.0.0" "@types/chai@^4.2.0" "@types/mocha@^9.1.0" "@typechain/ethers-v5@^10.1.0" "@typechain/hardhat@^6.1.2" "chai@^4.2.0" "hardhat-gas-reporter@^1.0.8" "solidity-coverage@^0.7.21" "ts-node@>=8.0.0" "typechain@^8.1.0" "typescript@>=4.5.0" '''
+clear the hardhat, it has arctifact file ''' npx hardhat clean '''
+Compile the hardhat ''' npx hardhat compile '''
+Get the account info and private keys ''' npx hardhat node '''
+Install remix ''' npm install -g @remix-project/remixd '''
+Set the environment and connect local host to remix ''' remixd -s ./ --remix-ide https://remix.ethereum.org '''
 ### Interacting with the Contract
 
 Once the MyToken contract is deployed, you can interact with it using the following functions:
